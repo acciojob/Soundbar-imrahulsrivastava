@@ -1,1 +1,24 @@
-/*  your css code here. If applicable */
+/* Write your CSS code here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#buttons {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(169, 56, 244);
+}
+
+.btn,
+.stop {
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(96, 26, 143);
+  color: white;
+  margin: 10px;
+  padding: 10px 20px;
+}
